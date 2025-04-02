@@ -1,0 +1,44 @@
+div#header{
+    text-align: center;
+}
+
+div#footer{
+    text-align: center;
+}
+
+body{
+    background-color: #eee;
+}
+
+div#title{
+    text-align: center;
+}
+
+main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bucket-items{
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+}
+
+#bucket-items ul{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+#bucket-items li{
+    list-style: none;
+    font-size: 150%;
+    
+}
+
+.bucket-delete-button{
+    background-color: #cbb;
+    font-weight: bold;
+    font-size: 105%;
+}

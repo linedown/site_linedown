@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+    color: #200;
+    font: bold;
+}
+
+footer nav{
+    text-align: center;
+    border-top-color: #000;
+    border-top-style: solid;
+    border-top-width: 2px;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 40;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+li a{
+    font-size: 110%;
+}

@@ -1,0 +1,19 @@
+div#header{
+    text-align: center;
+}
+
+div#footer{
+    text-align: center;
+}
+
+body{
+    background-color: #eee;
+}
+
+div#title{
+    text-align: center;
+}
+
+main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

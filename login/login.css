@@ -1,0 +1,30 @@
+div#header{
+    text-align: center;
+}
+
+div#footer{
+    text-align: center;
+}
+
+body{
+    background-color: #eee;
+}
+
+main{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.authLabel{
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.inputData{
+    font-size: 36px;
+    height: 36px;
+}
+
+div+div{
+    padding-bottom: 5px;
+}

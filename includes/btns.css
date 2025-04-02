@@ -1,0 +1,32 @@
+:root {
+    --block-size: 40px;
+    --block-color: #ddd;
+    --text-color: #333;
+    --hover-color: #ccc;
+    --border-radius: 100% 100% 100% 100%;
+}
+#wrapper {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    :hover{
+        background-color: var(--hover-color)
+    } 
+}
+#wrapper button {
+    background-color: var(--block-color);
+    width: var(--block-size);
+    height: var(--block-size);
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: var(--border-radius);
+    border: none;
+    outline: none;
+    
+}
+.active__btn {
+    background-color: #491;
+    color: #fff;
+}

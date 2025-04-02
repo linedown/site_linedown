@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Вход</title>
+        <link rel="shortcut icon" href="login.webp">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <div id="header">
+
+        </div>
+        <main>
+            <div id="title">
+                <p><h1>Вход в аккаунт</h1></p><br>
+            </div>
+            <div id="loginForm">
+                <p><label for="loginInput" class="authLabel">Введите почту</label></p>
+                <p><input class="inputData" title="Вводите почту. Чего наводите сюда?" type="text" id="loginInput" minlength="4" maxlength="50"></p>
+            </div>
+            <div id="passwordForm">
+                <p><label for="passwordInput" class="authLabel">Введите пароль</label></p>
+                <p><input class="inputData" title="Не подсматривайте!" type="password" id="passwordInput" minlength="4" maxlength="50"></p>
+            </div>
+            <div id="submitForm">
+                <p><input type="submit" value="Войти в аккаунт" class="authLabel" id="submitButton"></p>
+                <p><a href="../policy/policy.html"><u>Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности данного сайта</u></a></p>
+            </div>
+        </main>
+        <div id="footer">
+
+        </div>
+        <script src="../includes/headerAndFooter.js"></script>
+        <script src="login.js"></script>
+    </body>
+</html>

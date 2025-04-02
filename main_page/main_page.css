@@ -1,0 +1,31 @@
+.strangle_stroke{
+    color: transparent;
+    background-image: linear-gradient(to top, #920, rgba(0, 95, 136, 0.626), rgba(0, 153, 18, 0.847));
+    background-clip: text;
+    font-size: 25px;
+}
+
+body{
+    background-color: #eee;
+}
+
+main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#title{
+    text-align: center;
+    color:#000;
+}
+
+div#image-logo{
+    text-align: center;
+}
+
+div.info{
+    color: #333; 
+}
+
+h3{
+    font-weight: normal;
+}
